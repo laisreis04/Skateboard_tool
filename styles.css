@@ -109,14 +109,16 @@ a{
 
 .frames {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 
 @media (max-width:767px) {
   .frames{
     flex-direction: column;
+    text-align: center;
   }
 }
 .page2 {
@@ -144,12 +146,14 @@ a{
 height: 446px;
 border-radius: 95px;
 border: 1px solid #EC576B;
-background: rgba(0, 0, 0, 0.10);
+background:black;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-margin-left: 150px;
 margin-top: 90px;
 text-align: center;
 position: relative;
+flex-wrap: wrap;
+display: flex;
+margin-left: 60px;
 }
 
 .imagens_p2 {
@@ -169,14 +173,15 @@ position: relative;
   align-items: center;
   justify-content: flex-start;
   height: 100%;
-  padding-top: 20px;
   color: #EC576B;
   font-size: 32px;
   font-family: Julius Sans One;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
+position: absolute;
+top: 40px;
+left: 0;
+right: 0;
+text-align: center;
+
 }
 
 .p-page2{
@@ -188,7 +193,6 @@ position: relative;
   color: #EC576B;
   font-size: 20px;
   font-family: Julius Sans One;
-position: absolute;
 position: absolute;
 bottom: 50px;
 left: 0;
@@ -204,12 +208,13 @@ text-align: center;
   .frame-button{
     flex-direction: column;
     text-align: center;
-    margin-left: 80px;
+    margin: auto;
+    margin-top: 80px;
   }
   .h2-frame{
     flex-direction: column;
     text-align: center;
-    margin-left: 60px;
+    margin-left: auto;
   }
 
   .imagens_p2{
