@@ -1,15 +1,15 @@
-//Button_index
-var buttom = document.getElementById("botaohp");
 
-buttom.addEventListener("mouseover", function (){
-    buttom.classList.add("pop-out");
+var button = document.getElementById("buttonhp");
+
+button.addEventListener("mouseenter", function (){
+    button.classList.add("pop-out");
 });
 
-buttom.addEventListener("mouseout", function() {
-    buttom.classList.remove("pop-out");
+button.addEventListener("mouseleave", function() {
+    button.classList.remove("pop-out");
 });
 
-//Imagens_Page_2
+
 var buttom = document.getElementsByClassName("frame-button");
 
 for (var i = 0; i < buttons.length; i++) {

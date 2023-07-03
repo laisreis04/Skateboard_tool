@@ -1,4 +1,4 @@
-body {
+.custom-body {
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,6 @@ word-wrap: break-word;
 
 .container {
     display: flex;
-    padding-left: 100px;
   }
 
 .button-hp{
