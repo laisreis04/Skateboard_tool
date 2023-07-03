@@ -10,14 +10,14 @@ button.addEventListener("mouseleave", function() {
 });
 
 
-var buttom = document.getElementsByClassName("frame-button");
+var buttom = document.getElementsByClassName("frames");
 
 for (var i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener("mouseover", function() {
+    buttons[i].addEventListener("mouseenter", function() {
       this.classList.add("pop-out");
     });
   
-    buttons[i].addEventListener("mouseout", function() {
+    buttons[i].addEventListener("mouseleave", function() {
       this.classList.remove("pop-out");
     });
   }
