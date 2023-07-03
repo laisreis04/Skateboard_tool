@@ -58,8 +58,10 @@ font-family: Julius Sans One;
 }
 
 .pic1{
-width: 550px;
-height: 750px;
+width: 100%;
+height: auto;
+max-width: 550px;
+max-height: 750px;
 flex-shrink: 0;
 float: right;
 margin-left: 100px;
