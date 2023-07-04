@@ -1,3 +1,4 @@
+//Action for index page
 
 var button = document.getElementById("buttonhp");
 
@@ -9,6 +10,7 @@ button.addEventListener("mouseleave", function() {
     button.classList.remove("pop-out");
 });
 
+//action for page 2_part 2
 
 var buttom = document.getElementsByClassName("frames");
 

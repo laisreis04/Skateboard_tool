@@ -157,25 +157,25 @@ margin-left: 60px;
 }
 
 .imagens_p2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 116px;
-  height: auto;
-  object-fit: cover;
-  margin-top: 10px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 116px;
+height: auto;
+object-fit: cover;
+margin-top: 10px;
 }
 
 .h2-frame {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  height: 100%;
-  color: #EC576B;
-  font-size: 32px;
-  font-family: Julius Sans One;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+height: 100%;
+color: #EC576B;
+font-size: 32px;
+font-family: Julius Sans One;
 position: absolute;
 top: 40px;
 left: 0;
@@ -185,14 +185,14 @@ text-align: center;
 }
 
 .p-page2{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  height: 100%;
-  color: #EC576B;
-  font-size: 20px;
-  font-family: Julius Sans One;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+height: 100%;
+color: #EC576B;
+font-size: 20px;
+font-family: Julius Sans One;
 position: absolute;
 bottom: 50px;
 left: 0;
@@ -221,4 +221,106 @@ text-align: center;
     flex-direction: column;
     text-align: center;
   }
+}
+
+/*Page 2 - Part 2 */
+
+.pic-2 {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  margin-top: 800px;
+  object-fit: cover;
+  margin-left: 100px;
+  border-radius: 40px 0 0 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+@media(max-width:767px){
+  .pic-2{
+    width: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.container-form{
+  display: flex;
+  flex-direction: column;
+ padding: 150px 0 40px 250px;
+}
+
+@media (max-width:767px) {
+  .container-form{
+    flex-direction: column;
+    text-align: center;
+  }}
+
+.h1-page2{
+  color: #EC576B;
+  font-family: Julius Sans One;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: lowercase;
+  display: flex;
+width: 468px;
+height: 72px;
+flex-direction: column;
+justify-content: center;
+}
+
+.p-form{
+  color: #EC576B;
+  font-family: Julius Sans One;
+  display: flex-end;
+  margin-top: -35px;
+width: 197px;
+height: 41px;
+flex-direction: column;
+justify-content: center;
+}
+
+.btn-form{
+  width: 245px;
+height: 56px;
+border-radius: 46px;
+border: 1px solid #EC576B;
+background:black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn-form-text{
+  color: #EC576B;
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-size: 20px;
+font-family: Julius Sans One;
+}
+
+.info-lais{
+  display: flex;
+  flex-direction: column;
+ padding: 40px 0 40px 250px;
+}
+
+.h1-info{
+    color: #EC576B;
+    font-family: Julius Sans One;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+    display: flex;
+  width: 468px;
+  height: 72px;
+  flex-direction: column;
+  justify-content: center;
 }
