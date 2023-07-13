@@ -90,6 +90,7 @@ font-family: Julius Sans One;
 
 a{
   text-decoration: none;
+  color: azure;
 }
 
  .pop-out {
@@ -253,7 +254,7 @@ text-align: center;
 .container-form{
   display: flex;
   flex-direction: column;
- padding: 150px 0 40px 250px;
+ padding: 150px 0 40px 100px;
 }
 
 @media (max-width:767px) {
@@ -308,7 +309,7 @@ font-family: Julius Sans One;
 .info-lais{
   display: flex;
   flex-direction: column;
- padding: 40px 0 40px 250px;
+ padding: 40px 0 40px 100px;
 }
 
 .h1-info{
@@ -323,4 +324,10 @@ font-family: Julius Sans One;
   height: 72px;
   flex-direction: column;
   justify-content: center;
+}
+
+.p-info{
+  margin-top: -30px;
+  color: azure;
+  font-family: Julius Sans One;
 }
